@@ -16,6 +16,12 @@ export const App = () => {
        create={CategoryCreate}
        edit={CategoryEdit}
       />
+     <Resource
+       name='sizes'
+       list={CategoryList}
+       create={CategoryCreate}
+       edit={CategoryEdit}
+      />
     </Admin>
   )
 }
