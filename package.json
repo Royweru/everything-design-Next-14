@@ -11,6 +11,7 @@
   "dependencies": {
     "@clerk/nextjs": "^5.5.2",
     "@prisma/client": "^5.19.1",
+    "@prisma/extension-pulse": "^1.2.0",
     "@relume_io/relume-tailwind": "^0.5.1",
     "@relume_io/relume-ui": "^0.5.1",
     "clsx": "^2.1.1",
