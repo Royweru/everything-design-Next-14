@@ -14,3 +14,31 @@ datasource db {
   url  	    = env("DATABASE_URL")
   directUrl = env("DATABASE_URL_UNPOOLED")
 }
+
+
+model Category{
+  id String @id @default(uuid())
+  name String 
+  products Product[]
+}
+model Size{
+  id String @id @default(uuid())
+  name String 
+  value String
+  products Product[]
+}
+
+model Product{
+  id String @id @default(uuid())
+  label String
+  thumbnail String
+  description String
+  isFeatured Boolean? @default(false)
+  price Float
+  
+  categoryId String
+  category Category @relation(fields: [categoryId],references: [id])
+
+  sizeId String
+  size Size @relation(fields: [sizeId],references: [id])
+}
