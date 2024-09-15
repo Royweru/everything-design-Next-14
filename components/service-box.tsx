@@ -11,7 +11,7 @@ export const ServiceBox = ({imageSrc,label,description}:{
      <img src={imageSrc} className=' bg-contain' width={75} height={75} />
     </div>
     <div  className=' flex flex-col gap-0.5  justify-center' >
-      <h2 className=' text-xl font-semibold text-pallete-orange'>
+      <h2 className=' text-xl font-semibold  text-neutral-black/75'>
        {label}
       </h2>
       <p className=' text-sm font-normal tracking-wide text-text-primary'>

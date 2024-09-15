@@ -88,10 +88,10 @@ export const brandedMugs: {
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       thumbnail:
-        "https://m.media-amazon.com/images/I/A13usaonutL._CLa%7C2140%2C2000%7C61VPSN2xV-L.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_UY1000_.png",
+        "/bt8.jpg",
       images: [
-        "https://m.media-amazon.com/images/I/81EHJjP2XGL._AC_UY1000_.jpg",
-        "https://static.wixstatic.com/media/3ef9b8_8f6ef279ecce46d3b8f1f5c51a4f37e4~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "/bt3.jpg",
+        "/",
       ],
     },
     {
@@ -100,11 +100,11 @@ export const brandedMugs: {
       price: 1000,
       description:
         "Get your t-shirt branded with your favorite celebrity. This shirt features a design inspired by the legendary 2Pac Shakur. Made from high-quality materials, it offers both comfort and style. Perfect for fans of 2Pac and those who want to celebrate the legacy of an iconic artist. Make a bold statement with this exclusive piece.It may be an artist of your choice, Drake , Kendick, ",
-      thumbnail: "/images/t-shirts/bt6.jpg",
+      thumbnail: "/bt6.jpg",
       images: [
-        "/images/t-shirts/bt6.jpg",
-        "/images/t-shirts/bt4.jpg",
-        "/images/t-shirts/bt3.jpg",
+        "/bt4.jpg",
+        "/bt6.jpg",
+        "/bt3.jpg",
       ],
     },
     {
@@ -113,8 +113,8 @@ export const brandedMugs: {
       price: 1200,
       description:
         "Get your t-shirt branded with the iconic Boondocks design. This premium-quality shirt offers comfort and style, perfect for fans of the acclaimed series. Wear your fandom proudly and make a statement with this exclusive piece.",
-      thumbnail: "/images/t-shirts/bt2.jpg",
-      images: ["/images/t-shirts/bt8.jpg", "/images/t-shirts/bt9.jpg"],
+      thumbnail: "/bt2.jpg",
+      images: ["/bt8.jpg", "/bt9.jpg"],
     },
     {
       id: 4,
@@ -122,12 +122,12 @@ export const brandedMugs: {
       price: 950,
       description:
         " Get t-shirts with your own custom words of your choice. Personalize your style with a message that means something to you. Made from high-quality materials, this t-shirt combines comfort and individuality. Perfect for expressing yourself and making a unique statement.",
-      thumbnail: "/images/t-shirts/bt7.jpg",
+      thumbnail: "/bt7.jpg",
       images: [
-        "/images/t-shirts/bt7.jpg",
-        "/images/t-shirts/bt10.jpg",
-        "/images/t-shirts/bt11.jpg",
-        "/images/t-shirts/bt12.jpg",
+        "/bt7.jpg",
+        "/bt10.jpg",
+        "/bt11.jpg",
+        "/bt12.jpg",
       ],
     },
     {
@@ -135,19 +135,19 @@ export const brandedMugs: {
       name: "Gotha gotha tena...",
       price: 1000,
       description: `Get a t-shirt with the iconic "Gotha gotha tena" wording. This stylish and comfortable tee is perfect for fans who love to make a statement. Made from high-quality cotton, it offers a soft feel and a great fit for everyday wear. Whether you're out with friends or relaxing at home, this t-shirt is a fantastic addition to your wardrobe. Show off your unique style and embrace the fun with this eye-catching piece!`,
-      thumbnail: "/images/slide3.png",
-      images: ["/images/slide3.png"],
+      thumbnail: "/bt6.jpg",
+      images: ["/bt11.jpg"],
     },
     {
       id: 6,
       name: "Paul Escobar...",
       price: 1200,
       description: `Get a t-shirt with the iconic "Gotha gotha tena" wording. This stylish and comfortable tee is perfect for fans who love to make a statement. Made from high-quality cotton, it offers a soft feel and a great fit for everyday wear. Whether you're out with friends or relaxing at home, this t-shirt is a fantastic addition to your wardrobe. Show off your unique style and embrace the fun with this eye-catching piece!`,
-      thumbnail: "/images/t-shirts/bt13.png",
+      thumbnail: "/bt13.png",
       images: [
-          "/images/t-shirts/bt14.png",
-          "/images/t-shirts/bt15.png",
-          "/images/t-shirts/bt16.png",
+          "/bt14.png",
+          "/bt15.png",
+          "/bt16.png",
       ],
     },
   ];
