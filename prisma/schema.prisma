@@ -49,10 +49,10 @@ model Product{
   thumbnail String
   description String
   isFeatured Boolean? @default(false)
+  topSelling Boolean? @default(false)
+  images Image[]
   price Float
   
-  
-
   categoryId String
   category Category @relation(fields: [categoryId],references: [id],onDelete: Cascade)
 
@@ -61,4 +61,12 @@ model Product{
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt()
+}
+
+model Image {
+    id String @id @default(uuid())
+    productId String
+    product Product @relation(fields: [productId],references: [id],onDelete: Cascade)
+    
+    url String
 }

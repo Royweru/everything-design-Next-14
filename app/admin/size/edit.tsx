@@ -4,8 +4,9 @@ import { Create, SimpleForm, TextInput, DateInput, required, Edit } from 'react-
 
 export const SizeEdit= () => (
     <Edit>
-        <SimpleForm>
-            <TextInput source="name" validate={[required()]}  label="Category name"/>
+         <SimpleForm>
+            <TextInput source="name" validate={[required()]}  label="Size name"/>
+            <TextInput source="value" validate={[required()]}  label="Roman Value"/>
         </SimpleForm>
     </Edit>
 );
