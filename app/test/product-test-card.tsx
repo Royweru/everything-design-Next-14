@@ -5,14 +5,16 @@ import React, { useState } from "react";
 interface ProductTestCardProps {
   prod: any;
   item: any;
+  variantId :string
 }
 export const ProductTestCard = ({ prod }: ProductTestCardProps) => {
     const [isLoding ,setIsLoading] = useState(false)
     const paymentHandler =async ()=>{
+        
       try {
         setIsLoading(true)
         const result = await axios.post('/api/purchaseProduct',{
-            productId:prod.variant_id.toString()
+            productId:'523293'
             
         })
         console.log(result.data)
@@ -38,16 +40,16 @@ export const ProductTestCard = ({ prod }: ProductTestCardProps) => {
             className=" bg-cover bg-center"
           />
         </div>
-        <div className=" flex flex-col gap-y-2">
+        <div className=" flex flex-col gap-y-2 pl-3">
           <div className=" font-semibold text-lg text-text-primary">
             <h4>{prod.name}</h4>
           </div>
           <p className=" font-normal pl-2 text-pallete-orange tracking-wide ">
             {prod.price_formatted}
           </p>
-          <a href={`${prod.buy_now_url}`} target="_blank">
-            Buy now
-          </a>
+          <h2 className=" text-xl font-bold text-pallete-red tracking-wide"> 
+             BUY now!!
+          </h2>  
         </div>
       </div>
     </div>

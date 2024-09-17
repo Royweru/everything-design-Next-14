@@ -5,7 +5,7 @@ import { NextResponse } from "next/server";
 export async function POST(req: Request) {
   try {
     const reqData = await req.json();
-
+    console.log(reqData)
     const{userId} =auth()
 
     if (!reqData.productId)

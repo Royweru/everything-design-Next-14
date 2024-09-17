@@ -164,9 +164,9 @@ export const brandedMugs: {
       name: "Make money not....",
       price: 2500,
       description: `Elevate your style with the "Make Money Not Friends" Hoodie, a statement piece that embodies attitude and individuality. Crafted with comfort and quality in mind, this hoodie is perfect for those who dare to stand out from the crowd. Whether you're hitting the streets or lounging at home, this hoodie effortlessly combines fashion with comfort. The bold statement on the front adds a touch of personality to your look, making it a must-have addition to your wardrobe. Embrace your unique style and make a statement with the "Make Money Not Friends" Hoodie."`,
-      thumbnail: "/images/hoodies/bh2.jpg",
+      thumbnail: "/bh2.jpg",
       images: [
-        "/images/hoodies/bh2.jpg",
+        "/bh2.jpg",
         "https://i.pinimg.com/736x/c8/05/73/c80573c2caf11f7712ddd722ce0b6c47.jpg",
       ],
     },
@@ -175,32 +175,32 @@ export const brandedMugs: {
       name: "Time is money...",
       price: 2500,
       description: `Unlock the power of time and money with the "Time is Money..." Hoodie. Crafted for those who understand the value of every moment, this hoodie is a symbol of ambition and hustle. Immerse yourself in its luxurious comfort while making a bold statement about your priorities. Designed with meticulous attention to detail, it seamlessly blends style with functionality. Whether you're chasing dreams or seizing opportunities, let this hoodie be your companion on the journey to success. Embrace the ethos of "Time is Money..." and let your style speak volumes about your determination and drive.`,
-      thumbnail: "/images/hoodies/2.png",
-      images: ["/images/hoodies/2.png"],
+      thumbnail: "/bh3.jpg",
+      images: ["/bh3.jpg"],
     },
     {
       id: 3,
       name: "Sorry this guy has been taken..",
       price: 2500,
       description: `Make a bold statement about your relationship status with the "Sorry This Guy Has Been Taken by a Super Sexy Girlfriend..." Hoodie. Crafted for those who are happily committed, this hoodie is a playful declaration of love and devotion. Embrace its cozy comfort while proudly showcasing your relationship status to the world. Designed with style and humor in mind, it's the perfect addition to your wardrobe for casual outings or cozy nights in with your significant other. Let your hoodie do the talking and let everyone know that your heart belongs to someone special.`,
-      thumbnail: "images/hoodies/bh3.jpg",
-      images: ["images/hoodies/bh3.jpg"],
+      thumbnail: "/bh1.jpg",
+      images: ["/bh3.jpg"],
     },
     {
       id: 4,
       name: "Protect your energy",
       price: 2500,
       description: `Embrace the power of positivity with the "Protect Your Energy" Hoodie. Crafted for those who prioritize self-care and inner peace, this hoodie serves as a reminder to safeguard your energy and focus on what truly matters. Made with premium materials for ultimate comfort, it's perfect for cozy days indoors or casual outings where you want to radiate positive vibes. Let the world know that you're committed to maintaining a healthy balance and protecting your inner light. Wear it proudly as a symbol of self-love and empowerment.`,
-      thumbnail: "images/hoodies/bh4.jpg",
-      images: ["images/hoodies/bh4.jpg"],
+      thumbnail: "/bh4.jpg",
+      images: ["/bh4.jpg"],
     },
     {
       id: 5,
       name: "Take risks and prosper hoodie..",
       price: 2550,
       description: `Embrace the spirit of adventure and ambition with the "Take Risks and Prosper" Hoodie. Crafted for those who aren't afraid to step outside their comfort zone and chase their dreams, this hoodie is a symbol of courage and determination. Made with high-quality materials for both style and comfort, it's perfect for individuals who are always on the move, ready to seize new opportunities. Let this hoodie be your reminder that fortune favors the bold. Wear it proudly as you navigate life's challenges and embrace the journey toward success.🔥🔥Remember we can customize your hoodie with any custom wording and style of your choice`,
-      thumbnail: "images/hoodies/bh6.jpg",
-      images: ["images/hoodies/bh6.jpg", "images/hoodies/bh5.jpg"],
+      thumbnail: "/bh6.jpg",
+      images: ["/bh6.jpg", "/bh5.jpg"],
     },
   ];
   export const brandedHatsToppers: {
@@ -217,8 +217,8 @@ export const brandedMugs: {
       price: 1000,
       description:
         " This inspiring topper is designed for those who believe in the power of perseverance and ambition. Crafted with high-quality materials, it not only serves as a motivational piece but also as a testament to your dedication and dreams. Perfect for office desks, study tables, or as a thoughtful gift, this topper will remind you every day that with hard work and big dreams, anything is possible. Let it be a beacon of hope and a source of daily inspiration as you strive to achieve your goals.",
-      thumbnail: "/images/toppers/1.png",
-      images: ["/images/toppers/1.png"],
+      thumbnail: "/bto2.jpg",
+      images: ["/bto3.jpg"],
     },
     {
       id: 2,
@@ -226,8 +226,8 @@ export const brandedMugs: {
       price: 950,
       description:
         "This empowering topper is designed for those who have overcome challenges and emerged stronger. Crafted with premium materials, it stands as a powerful statement of resilience and self-worth. Ideal for personal spaces, office desks, or as a meaningful gift, this topper serves as a daily reminder of your strength and independence. Let it symbolize your journey of healing and growth, and inspire you to face the future with confidence and courage.",
-      thumbnail: "/images/toppers/2.png",
-      images: ["/images/toppers/2.png"],
+      thumbnail: "/bto4.jpg",
+      images: ["/bto4.jpg"],
     },
     {
       id: 3,
@@ -235,8 +235,8 @@ export const brandedMugs: {
       price: 850,
       description:
         "Proud of your city? Showcase your love for Nairobi with this stunning skyline topper. Perfect for adding a touch of urban elegance to your space, this topper captures the vibrant essence of Nairobi. Ideal for your desk, bookshelf, or as a unique gift, let this topper be a daily reminder of the city's dynamic spirit and beauty. Celebrate Nairobi in style!",
-      thumbnail: "/images/toppers/3.png",
-      images: ["/images/toppers/3.png"],
+      thumbnail: "/bto5.png",
+      images: ["/bto5.png"],
     },
     {
       id: 4,
@@ -244,8 +244,8 @@ export const brandedMugs: {
       price: 1000,
       description:
         "Bold and intriguing, the 'Girls are Drugs' topper is a statement piece that captures attention. Crafted with high-quality materials, this unique topper adds a touch of edgy sophistication to any space. Perfect for sparking conversations, it's ideal for desks, shelves, or as a provocative gift. Embrace the allure and mystery with this captivating topper that stands out and makes a lasting impression.",
-      thumbnail: "/images/toppers/4.png",
-      images: ["/images/toppers/4.png", "/images/toppers/5.png"],
+      thumbnail: "/bto4.jpg",
+      images: ["/bto4.jpg", ],
     },
     {
       id: 5,
@@ -253,21 +253,13 @@ export const brandedMugs: {
       price: 1000,
       description:
         "Embrace the champion mindset with the 'Winners Train Losers Complain' topper. Designed to motivate and inspire, this premium-quality topper is perfect for your workspace, gym, or as a gift for someone who strives for excellence. Let this bold statement remind you daily that dedication and hard work set winners apart. Elevate your space and fuel your ambition with this powerful and motivational piece.",
-      thumbnail: "/images/toppers/6.jpg",
+      thumbnail: "/bto2.jpg",
       images: [
-        "/images/toppers/6.jpg",
-        "/images/toppers/7.jpg",
-        "/images/toppers/8.jpg",
+        "/bto3.jpg",
+        "/bto4.jpg",
+        
       ],
     },
-    {
-      id: 6,
-      name: "Jesus christ is King..",
-      price: 1000,
-      description:
-        "Celebrate your faith with the 'Jesus Christ is King' topper. Crafted with care and reverence, this elegant piece is perfect for your home, office, or as a thoughtful gift. Let it serve as a daily reminder of your beliefs and the eternal love and grace of Jesus Christ. This inspiring topper is a beautiful way to express your devotion and add a touch of spiritual significance to any space.",
-      thumbnail: "/images/toppers/9.png",
-      images: ["/images/toppers/9.png"],
-    },
+ 
   ];
   
