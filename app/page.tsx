@@ -13,8 +13,8 @@ import {
 } from "@/data/products";
 
 export default async function Home() {
- 
-
+  
+  const categories = await getCategories()
   return (
     <>
       <Hero />

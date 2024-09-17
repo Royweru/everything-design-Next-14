@@ -6,7 +6,7 @@ export const getCategories  = async () => {
         console.log(res.data)
         return res.data
     } catch (error) {
-         console.log(error)
+         console.log("Error fetching Categories: " + error)
     }
    
 }
