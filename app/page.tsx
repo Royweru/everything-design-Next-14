@@ -1,3 +1,5 @@
+import { getBillboards } from "@/actions/getBillboards";
+import { getCategories } from "@/actions/getCategories";
 import { Featured } from "@/components/featured";
 
 import { Hero } from "@/components/hero";
@@ -11,6 +13,8 @@ import {
 } from "@/data/products";
 
 export default async function Home() {
+ 
+
   return (
     <>
       <Hero />

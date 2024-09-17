@@ -1,15 +1,13 @@
 import db from "@/lib/db"
-import { auth } from "@clerk/nextjs/server"
+import { auth, currentUser } from "@clerk/nextjs/server"
 import { NextResponse } from "next/server"
 
 export async function GET(
     req:Request,
 
 ) {
-    const {userId} =  auth()
-
-    if(!userId) return new NextResponse("Unauthorized")
-
+    const {userId} =await auth()
+   if(currentUser) return new NextResponse("Unauthorized",{status:403})
     try {
         const res = await db.billboard.findMany({
             include:{

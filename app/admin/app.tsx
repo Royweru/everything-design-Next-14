@@ -8,6 +8,9 @@ import { CategoryList } from './category/list';
 import { SizeList } from './size/list';
 import { SizeCreate } from './size/create';
 import { SizeEdit } from './size/edit';
+import { BillboardList } from './billboard/list';
+import { BillboardCreate } from './billboard/create';
+import { BillboardEdit } from './billboard/edit';
 
 const dataProvider = simpleRestProvider('/api')
 export const App = () => {
@@ -24,6 +27,18 @@ export const App = () => {
        list={SizeList}
        create={SizeCreate}
        edit={SizeEdit}
+      />
+     <Resource
+       name='billboards'
+       list={BillboardList}
+       edit={BillboardEdit}
+       create={BillboardCreate}
+      />
+     <Resource
+       name='categories'
+       list={CategoryList}
+       edit={CategoryEdit}
+       create={CategoryCreate}
       />
     </Admin>
   )

@@ -7,13 +7,13 @@ export async function GET(
 
 ) {
     const {userId} = await auth()
-
     if(!userId) return new NextResponse("Unauthorized")
 
     try {
         const res = await db.category.findMany({
             include:{
-                products:true
+                products:true,
+                billboard:true
             }
         })
         return NextResponse.json(res)

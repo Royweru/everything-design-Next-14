@@ -15,7 +15,7 @@ export async function GET(
   
 
     try {
-        const res = await db.category.findUnique({
+        const res = await db.billboard.findUnique({
             where:{
                 id:params.billboardId
             }
@@ -38,7 +38,7 @@ export async function PUT(
     const body =await req.json()
     console.log(body)
     try {
-        const res = await db.category.update({
+        const res = await db.billboard.update({
             where:{
                 id:params.billboardId
             },

@@ -62,15 +62,24 @@ export const MainNav = (props: Navbar2Props) => {
           </a>
           <div className="flex items-center gap-4 lg:hidden">
             <div>
-              {buttons.map((button, index) => (
-                <Button
-                  key={index}
-                  className="w-full px-4 py-1 font-semibold text-pallete-orange"
-                  {...button}
-                >
-                  {button.title}
-                </Button>
-              ))}
+            <ClerkLoading>
+             <Loader className=" anima size-5 text-muted-foreground"/>
+            </ClerkLoading>
+            <ClerkLoaded>
+              <SignedOut>
+                <SignUpButton mode="modal">
+                 <Button variant="secondary" className=" text-pallete-orange font-semibold">
+                   Sign Up
+                 </Button>
+                </SignUpButton>
+                <SignInButton mode="modal">
+                  <Button variant="link" className=" text-black font-semibold">Sign In</Button>
+                </SignInButton>
+              </SignedOut>
+              <SignedIn>
+                <UserButton  />
+              </SignedIn>
+            </ClerkLoaded>
             </div>
             <div className=" flex items-center  justify-center">
               <ShoppingCartIcon className=" size-5 text-pallete-red" />
